@@ -1,0 +1,39 @@
+# Requirements for ML4QS Tennis Analysis Assignment Notebooks
+# Core data science packages
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0,<3.0.0
+matplotlib>=3.4.0,<4.0.0
+seaborn>=0.11.0,<1.0.0
+
+# Computer vision and image processing
+opencv-python>=4.5.0,<5.0.0
+ultralytics>=8.0.0,<9.0.0
+
+# Machine learning packages
+scikit-learn>=1.0.0,<2.0.0
+scipy>=1.7.0,<2.0.0
+
+# Deep learning (for YOLO models) - compatible with older Python
+torch>=1.9.0,<3.0.0
+torchvision>=0.10.0,<1.0.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+
+# Additional utilities
+tqdm>=4.62.0
+
+# Optional: For enhanced visualizations
+plotly>=5.0.0
+bokeh>=2.4.0
+
+# Optional: For text processing (if needed)
+nltk>=3.6.0
+
+# Note: The following packages may not be available or needed:
+# - pyfilterbank (removed - not commonly available)
+# - pickle-mixin (removed - pickle is built-in)
+# - pyclust (removed - not commonly available)
+# - warnings, sys, pathlib, copy, datetime (removed - built-in modules)
