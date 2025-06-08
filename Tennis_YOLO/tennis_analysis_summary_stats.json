@@ -1,10 +1,10 @@
 {
   "dataset_info": {
-    "total_frames": 300,
-    "duration_seconds": 10.0,
+    "total_frames": 214,
+    "duration_seconds": 7.133333333333334,
     "frame_rate": 30,
-    "resolution": "640x480",
-    "video_aspect_ratio": 1.3333333333333333
+    "resolution": "1920x1080",
+    "video_aspect_ratio": 1.7777777777777777
   },
   "court_measurements": {
     "single_line_width": 8.23,
@@ -15,16 +15,16 @@
     "no_mans_land_height": 5.48
   },
   "court_scale": {
-    "pixels_per_meter_x": 40.838650865998176,
-    "pixels_per_meter_y": 14.14141414141414,
-    "court_width_pixels": 448.0,
-    "court_height_pixels": 336.0,
+    "pixels_per_meter_x": 122.51595259799453,
+    "pixels_per_meter_y": 31.818181818181817,
+    "court_width_pixels": 1344.0,
+    "court_height_pixels": 756.0,
     "court_width_meters": 10.97,
     "court_height_meters": 23.76
   },
   "tracking_stats": {
     "total_players": 2,
-    "total_player_detections": 412,
+    "total_player_detections": 428,
     "main_players": [
       1,
       2
@@ -34,38 +34,38 @@
   },
   "player_1_stats": {
     "detection_count": 214,
-    "detection_rate": 0.7133333333333334,
-    "avg_speed_kmh": 0.12071841711910593,
-    "max_speed_kmh": 1.1024050746220018,
-    "total_distance_meters": 0.23808354487379219,
+    "detection_rate": 1.0,
+    "avg_speed_kmh": 6.3104284162791,
+    "max_speed_kmh": 21.164520850849218,
+    "total_distance_meters": 12.445567154328225,
     "court_coverage": {
-      "x_range_meters": 0.02062433208737957,
-      "y_range_meters": 0.04042014803205163
+      "x_range_meters": 5.453042417026702,
+      "y_range_meters": 6.394515380859374
     },
-    "most_common_region": "far_half_net_area_right"
+    "most_common_region": "near_half_baseline_area_right"
   },
   "player_2_stats": {
-    "detection_count": 198,
-    "detection_rate": 0.66,
-    "avg_speed_kmh": 0.4830711000262433,
-    "max_speed_kmh": 5.024179417051176,
-    "total_distance_meters": 0.8811574694923143,
+    "detection_count": 214,
+    "detection_rate": 1.0,
+    "avg_speed_kmh": 4.15202213058997,
+    "max_speed_kmh": 15.570722203825735,
+    "total_distance_meters": 8.188710313107997,
     "court_coverage": {
-      "x_range_meters": 0.0574076727458408,
-      "y_range_meters": 0.26126067025320765
+      "x_range_meters": 3.5982135604676753,
+      "y_range_meters": 1.8746212986537394
     },
-    "most_common_region": "near_half_baseline_area_center"
+    "most_common_region": "far_half_service_area_right"
   },
   "ball_stats": {
     "detection_count": 94,
-    "detection_rate": 0.31333333333333335,
-    "avg_speed_kmh": 96.68281188606977,
-    "max_speed_kmh": 573.2378631905466,
-    "total_distance_meters": 83.2546435685601,
+    "detection_rate": 0.4392523364485981,
+    "avg_speed_kmh": 32.22760396202325,
+    "max_speed_kmh": 191.07928773018222,
+    "total_distance_meters": 27.751547856186694,
     "court_coverage": {
-      "x_range_meters": 16.50543413094112,
-      "y_range_meters": 41.15630342755998
+      "x_range_meters": 5.501811376980373,
+      "y_range_meters": 18.291690412248887
     },
-    "avg_height_meters": 1.5945830958713276
+    "avg_height_meters": 1.425839054065152
   }
 }
