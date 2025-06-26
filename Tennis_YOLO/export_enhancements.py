@@ -1,5 +1,7 @@
 # Additional export enhancements for tennis dataset
 
+import pandas as pd
+
 def create_time_series_export(df_processed, export_timestamp):
     """Create time-series optimized export for temporal analysis"""
     
@@ -97,9 +99,3 @@ def create_feature_importance_analysis(df_processed, export_timestamp):
     df_feature_stats.to_csv(feature_analysis_file, index=False)
     
     return feature_analysis_file
-
-# Example usage:
-# timeseries_file = create_time_series_export(df_processed, export_timestamp)
-# video_files = create_video_segmented_exports(df_processed, export_timestamp) 
-# train_file, test_file = create_ml_ready_splits(df_processed, export_timestamp)
-# feature_file = create_feature_importance_analysis(df_processed, export_timestamp)

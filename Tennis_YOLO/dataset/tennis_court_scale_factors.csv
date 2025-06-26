@@ -1,0 +1,5 @@
+measurement,value,description,measurement_type
+pixels_per_meter_x,122.51595259799453,Horizontal pixel-to-meter conversion factor,scale
+pixels_per_meter_y,31.818181818181817,Vertical pixel-to-meter conversion factor,scale
+court_width_pixels,1344.0,Court width in video pixels,pixels
+court_height_pixels,756.0,Court height in video pixels,pixels

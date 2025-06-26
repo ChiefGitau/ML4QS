@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Combine all tennis datasets into a unified comprehensive dataset.
-This script merges multiple tennis tracking datasets using a strategic approach.
-"""
 
 import pandas as pd
 import numpy as np
@@ -218,7 +214,7 @@ def main():
         df_unified = organize_columns(df_unified)
         
         # Generate output filename
-        output_file = f"tennis_unified_comprehensive_dataset.csv"
+        output_file = f"dataset/tennis_unified_comprehensive_dataset.csv"
         
         # Save unified dataset
         print(f"\nSaving unified dataset...")

@@ -1,0 +1,55 @@
+{
+  "export_timestamp": "2025-06-26T01:40:52.768864",
+  "processing_summary": {
+    "start_time": "2025-06-26T01:39:56.453017",
+    "total_videos": 29,
+    "completed_videos": 29,
+    "failed_videos": 0,
+    "total_processing_time": 43.586309,
+    "total_frames_processed": 14512,
+    "end_time": "2025-06-26T01:40:45.326563",
+    "total_elapsed_time": 48.873546
+  },
+  "dataset_info": {
+    "total_videos_processed": 29,
+    "total_ball_detections": 14512,
+    "total_player_detections": 60834,
+    "datasets_exported": [
+      "Ball tracking: dataset/ball_tracking.csv (14,512 rows)",
+      "Player tracking: dataset/player_tracking.csv (60,834 rows)",
+      "Video summary: dataset/video_summary.csv (29 videos)"
+    ]
+  },
+  "video_files_processed": [
+    "input_video.mp4",
+    "input_video_10.mp4",
+    "input_video_11.mp4",
+    "input_video_12.mp4",
+    "input_video_13.mp4",
+    "input_video_14.mp4",
+    "input_video_15.mp4",
+    "input_video_16.mp4",
+    "input_video_18.mp4",
+    "input_video_19.mp4",
+    "input_video_2.mp4",
+    "input_video_20.mp4",
+    "input_video_21.mp4",
+    "input_video_22.mp4",
+    "input_video_23.mp4",
+    "input_video_24.mp4",
+    "input_video_25.mp4",
+    "input_video_26.mp4",
+    "input_video_27.mp4",
+    "input_video_28.mp4",
+    "input_video_29.mp4",
+    "input_video_3.mp4",
+    "input_video_30.mp4",
+    "input_video_4.mp4",
+    "input_video_5.mp4",
+    "input_video_6.mp4",
+    "input_video_7.mp4",
+    "input_video_8.mp4",
+    "input_video_9.mp4"
+  ],
+  "failed_videos": []
+}

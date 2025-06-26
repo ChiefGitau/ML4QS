@@ -1,0 +1,49 @@
+{
+  "export_timestamp": "20250626_014610",
+  "original_dataset": "dataset/tennis_unified_comprehensive_dataset.csv",
+  "dataset_type": "comprehensive_multi_object_tennis_tracking",
+  "preprocessing_steps": [
+    "Comprehensive dataset loading with automatic categorization",
+    "Multi-category missing value imputation (ball, player, enhanced features)",
+    "Multi-method normalization (MinMax, Standard, Robust, Tennis-specific)",
+    "Advanced filtering and smoothing for all object types",
+    "Comprehensive multi-object feature engineering",
+    "Multi-object interaction analysis and game state detection"
+  ],
+  "dataset_statistics": {
+    "original_columns": 92,
+    "processed_columns": 385,
+    "new_features_created": 293,
+    "total_frames": 14512,
+    "video_information": {
+      "total_videos": 29,
+      "frames_per_video_min": 93,
+      "frames_per_video_max": 1076,
+      "frames_per_video_mean": 500.41379310344826
+    },
+    "detection_rates": {
+      "ball_detected": 0.4440463065049614,
+      "player_1_detected": 1.0,
+      "player_2_detected": 1.0,
+      "both_players_detected": 1.0,
+      "all_objects_detected": 0.4440463065049614,
+      "total_objects_detected": 3.8880926130099227
+    }
+  },
+  "feature_categories": {
+    "ball_features": 120,
+    "player_features": 244,
+    "enhanced_features": 97,
+    "court_features": 139,
+    "interaction_features": 111,
+    "activity_features": 5,
+    "temporal_features": 60
+  },
+  "exported_files": {
+    "complete_dataset": "dataset/complete_tennis_comprehensive.csv",
+    "ball_focused_dataset": "dataset/tennis_ball_focused_ml4qs.csv",
+    "player_focused_dataset": "dataset/tennis_player_focused_ml4qs.csv",
+    "interactions_dataset": "dataset/tennis_interactions_ml4qs.csv",
+    "summary_dataset": "dataset/tennis_summary_ml4qs.csv"
+  }
+}
