@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Data Processing
+### Data Processing after running chap2
 ```bash
 python combine_tennis_datasets.py
 ```
